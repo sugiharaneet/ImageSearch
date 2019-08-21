@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.image-list ul{
+	width: 100%;
+}
+
+.image-list li{
+	width: 25%;
+	float: left;
+}
