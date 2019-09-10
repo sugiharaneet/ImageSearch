@@ -32,7 +32,7 @@ class PostController extends Controller
 
 		// ツイート機能
 		$statuses = new \stdClass();
-		$tweets = $connection->post('statuses/update', ['status' => 'http://good-1.xyz/ImageSearch/public/index']);
+		$tweets = $connection->post('statuses/update', ['status' => 'https://yesm.site/ImageSearch/public/index?abcdef']);
 
 		return view('posts.index');
 	}
